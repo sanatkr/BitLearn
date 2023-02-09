@@ -8,7 +8,7 @@ public class TwoSingleNumber {
 		int[] arr = {10,8,8,9,12,9,6,11,10,6,12,17};
 		int xoxAll = 0;
 		
-		// taking the xor of all the elements
+		// taking the xor  of all the elements
 		for(int i=0;i<arr.length;i++)
 		{
 			xoxAll = xoxAll ^ arr[i];
@@ -16,7 +16,7 @@ public class TwoSingleNumber {
 		
 		int pos = 0;
 		
-		// find the position where the resultant xoxAll have set bit
+		// find the first position from the LSB side where the resultant xoxAll have set bit
 		while(xoxAll>0)
 		{
 			if((xoxAll & 1) == 1)
