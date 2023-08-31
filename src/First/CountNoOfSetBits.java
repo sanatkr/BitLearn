@@ -51,7 +51,7 @@ public class CountNoOfSetBits {
 			count++;
 		}
 		
-		System.out.println("The count of set bits are :-"+count);
+		System.out.println("Total number of set bits are :-  "+count);
 		sc.close();
 
 	}
